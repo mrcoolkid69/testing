@@ -1,4 +1,43 @@
 body {
-            background-image: linear-gradient(to right, #1180ff, #0027d4);
-            text-align: center;
-        }
+    background-image: linear-gradient(to right, #1180ff, #0027d4);
+    text-align: center;
+    margin: 0;
+    
+}
+main{
+    margin-top: 100px;
+}
+
+nav {
+  background-color: #1575bf;
+  overflow: hidden;
+  width: 100%;
+  filter: drop-shadow(0px 15px 10px black);
+  border-radius: 6px;
+  z-index: 7777;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #5498ff;
+  transition: 0.3s;
+  border-radius: 10px/14px;
+  margin-right: 5px;
+}
+
+nav a.nonactive:hover {
+  color: black;
+  filter: drop-shadow(-5px 8px 10px black);
+}
+
+nav a.active {
+  background-color: #145b91;
+  color: white;
+}
