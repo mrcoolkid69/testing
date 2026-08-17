@@ -25,29 +25,41 @@
         .info-box {
             background-color: #b8b7b7;
             width: 30vw;
-            height: 100px;
+            height: 150px;
             margin: auto;
             border-radius: 25px;
             border: #0027d4 solid 3px;
             display: flex;
             align-items: center;
             justify-content: center;
-
+            transition: 0.3s;
+        }
+        .info-box:hover{
+            transform: translateY(-4px);
+            filter:drop-shadow(10px 10px 10px black);
         }
         .info-text {
             font-size: 30px;
             color: #006eff;
         }
-
+ 
         @media screen and (max-width: 520px) {
             .info-text{
-                font-size:15px;
+                font-size:20px;
+            }
+            .info-box{
+                height: 80px;
             }
             header{
                 font-size:15vw; 
             }
             h1{
                 font-size:12vw;
+            }
+        }
+        @media screen and (max-width: 350px) {
+            .info-box{
+                width: 50vw;
             }
         }
 
