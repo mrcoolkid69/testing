@@ -21,7 +21,6 @@ nav {
 }
 
 nav a {
-  float: left;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -29,7 +28,7 @@ nav a {
   font-size: 17px;
   background-color: #5498ff;
   transition: 0.3s;
-  border-radius: 10px/14px;
+  border-radius: 14px;
   margin-right: 5px;
 }
 
